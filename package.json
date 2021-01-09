@@ -4,7 +4,9 @@
   "description": "this is a test for git, npm, and lite-server",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"no operation\"
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/randomfactor/git-test/issues"
   },
-  "homepage": "https://github.com/randomfactor/git-test#readme"
+  "homepage": "https://github.com/randomfactor/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }

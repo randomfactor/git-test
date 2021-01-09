@@ -1,0 +1,19 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "this is a test for git, npm, and lite-server",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"no operation\"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randomfactor/git-test.git"
+  },
+  "author": "randomfactor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randomfactor/git-test/issues"
+  },
+  "homepage": "https://github.com/randomfactor/git-test#readme"
+}
